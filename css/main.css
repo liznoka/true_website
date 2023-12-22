@@ -1,0 +1,526 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	  text-decoration: none;
+	  font-family: 'Commissioner', sans-serif;
+	  display: flex;
+	  align-content: center;
+	  align-items: center;
+	  height: 70px;
+	  width: 110px;
+	  text-align: center;
+	  font: caption;	
+}
+.b-text{
+	padding: 90px 90px;
+}
+.b-text-footer{
+	padding-right: 90px;
+	padding-left: 90px;
+}
+.button {
+    position: absolute;
+    top:50%;
+    background-color: #372DAA;
+    color: #fff;
+    border:none; 
+    border-radius:40px; 
+    padding:15px 70px 15px 70px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 28px;
+  }
+.button:hover {
+      background-color:#FF5CA8;
+      transition: 0.7s;
+  }
+.button:active {
+    background-color:#FF5CA8;
+    color: #372DAA;
+    transition: 0.7s;
+}
+.button2 {
+    top:50%;
+    background-color: #372DAA;
+    color: #fff;
+    border:none; 
+    border-radius:40px; 
+    padding:15px 70px 15px 70px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 28px;
+  }
+.button2:hover {
+      background-color:#FF5CA8;
+      transition: 0.7s;
+  }
+.button2:active {
+    background-color:#FF5CA8;
+    color: #372DAA;
+    transition: 0.7s;
+}
+.button3 {
+    top:50%;
+    background-color: #372DAA;
+    color: #fff;
+    border:none; 
+    border-radius:40px; 
+    padding:15px 70px 15px 70px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 28px;
+  }
+.button3:hover {
+      background-color:#4135CF;
+      transition: 0.7s;
+  }
+.button3:active {
+    background-color:#4135CF;
+    color: #4135CF;
+    transition: 0.7s;
+}
+.button4 {
+    top:50%;
+    background-color: #372DAA;
+    color: #fff;
+    border:none; 
+    border-radius:40px; 
+    padding:15px 70px 15px 70px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 28px;
+  }
+.button4:hover {
+      background-color:#FF5CA8;
+      transition: 0.7s;
+  }
+.button4:active {
+    background-color:#FF5CA8;
+    color: #372DAA;
+    transition: 0.7s;
+}
+form {
+	margin: 0 auto;
+	width: 600px;
+	height: 350px;
+}
+.group {
+	margin: 10px;
+	padding: 5px;
+}
+label {
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+input {
+	margin-top: 40px;
+	height: 40px;
+	width: 580px;
+	border-radius: 20px/20px;
+	border: none;
+	padding-left: 15px;
+	font-size: 18px;
+}
+input:hover {
+	border: 3px solid #FFA800;
+}
+p{
+	margin: 0;
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 0.05em;
+}
+ul, li{
+	display: block;
+}
+.cat_zap{
+	 margin-top: 100px;
+	 display: flex;
+	 align-content: center;
+	 align-items: flex-end;
+	 text-align: center;
+}
+.text1{
+	height: 70px;
+	width: 600px;
+	margin-top: 60px;
+}
+.text2_1{
+	  display: flex;
+	  letter-spacing: 0.1em;
+	  justify-content: space-between;
+	  width: 1000px;
+
+}
+.text2_1 p{
+	padding-top: 0; 
+	font-size: 24px;
+	color: #372DAA;
+	font-family: 'Alegreya Sans SC';
+	line-height: 1.8;
+}
+.text2_2 p{
+	padding-top: 0; 
+	font-size: 60px; 
+	color: #FF5CA8;
+	font-family: 'Alegreya Sans SC';
+	font: bold;
+	line-height: 1.8;
+}
+.text2_2{
+	  display: flex;
+	  letter-spacing: 0.1em;
+	  justify-content: space-between;
+	  width: 1000px;
+	  flex-start;
+	  align-self: baseline;
+	  margin-top: 50px;
+}
+.y{
+	justify-content: space-between;
+
+}
+.y2{
+	display: flex;
+	justify-content: space-between;
+}
+.twix{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 600px;
+
+}
+.t-123{
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+}
+.t21{
+	display: flex;
+	justify-content: space-between;
+}
+.string1{
+		display: flex;
+	  letter-spacing: 0.1em;
+	  justify-content: space-between;
+	  width: 50px;
+	  align-self: baseline;
+}
+.string2{
+		display: flex;
+	  letter-spacing: 0.1em;
+	  justify-content: space-between;
+	  width: 50px;
+	  align-self: baseline;
+	  margin-top: 40px;
+	  margin-left: 330px;
+}
+.string3{
+		display: flex;
+	  letter-spacing: 0.1em;
+	  justify-content: space-between;
+	  width: 50px;
+	  align-self: baseline;
+	  margin-top: 40px;
+	  margin-left: 630px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10p;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: url('../img/header-bg.png') no-repeat center top / cover;
+	padding-top: 0px;
+	color: #fff;
+	padding-bottom: 320px;
+}
+header p{
+	margin-top: 0;
+	line-height: 1.8;
+}
+.menu {
+	display: flex;
+	font-family: 'Commissioner', sans-serif;
+}
+.menu li a {
+	font-size: 18px;
+	font-family: 'Commissioner', sans-serif;
+	letter-spacing: 0.1em;
+}
+.menu li {
+	margin-right: 40px;
+	font-family: 'Commissioner', sans-serif;
+}
+.wrapper{
+	width: 100% auto;
+	background-size: 100% auto;
+	height: 100% auto;
+	display: flex;
+	background-color: #F4BDF4;
+	padding: 10px;
+}
+.offer p{
+	font-size: 30px;
+	line-height: 1.8;
+}
+.offer h1{
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	font-family: 'Dela Gothic One', sans-serif;
+}
+.btn{
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	height: 57px;
+}
+.desc-right{
+	display: flex;
+	justify-content: flex-end; /* разместим справа */
+}
+.desc-left{
+	display: flex;
+	justify-content: flex-start; /* разместим слева */
+}
+.text_l_r{
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+}
+.bg1{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	background-color: #F9D3EB;
+}
+.bg2{
+	height: auto;
+	width: 100%;
+	background-color: #FFC75A;
+	display: flex;
+}
+.bg3{
+	height: auto;
+	width: 100%;
+	background-color: #F9D3EB;
+	display: flex;
+}
+.bg4{
+	height: auto;
+	width: 100%;
+	background-color: #FE85BA;
+	display: flex;
+}
+.bg5{
+	width: 100%;
+	height: 1200px;
+	background-color: #F9D3EB;
+	display: flex;
+
+}
+.bg6{
+	height: auto;
+	width: 100%;
+	background: url('../img/6-bg.png') no-repeat center top / cover;
+	background-size: 100% auto;
+	display: flex;
+}
+.bg7{
+	height: auto;
+	width: 100%;
+	background: url('../img/7-bg.png') no-repeat center top / cover;
+	background-size: 100% auto;
+	display: flex;
+}
+.bg8{
+	width: 100%;
+	height: 900px;
+	background-color: #FFD380;
+	display: flex;
+}
+.bg9{
+	height: 550px;
+	width: 100%;
+	background: url('../img/9-bg.png') no-repeat center top / cover;
+	background-size: 100% auto;
+	display: flex;
+}
+.footer {
+	background-color: #F4BDF4;
+	height: 430px;
+	display: flex;
+	align-self: baseline;
+}
+.footer-text {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text2 {
+	display: flex;
+	justify-content: space-between;
+	width: 812px;
+}
+.f1_2{
+	left:-20px;
+}
+.f1_3{
+	left:-40px; 
+}
+.f1_4{
+	left:-60px; 
+}
+.f1_5{
+	left:-80px;
+}
+.f2_2{
+	left:-10px;
+	width: 278px;
+}
+.third-block{
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	width: 1060px;
+}
+.fith-block{
+    margin-left: auto;
+    margin-right: auto;
+}
+.yellow{
+	background-color: #FFC75A;
+	padding: 40px;
+	border-radius: 55px;
+	width: 600px;
+}
+#grid { 
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 0em;
+}
+#grid > div {
+font-size: 5vw;
+padding: .3em;
+padding-bottom: 0px;
+text-align: center;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+.buttons__button:not(:last-child) {
+  margin-right: 24px;
+}
+.modal { /* начальные стили */
+  visibility: hidden; /* скрываем модальное окно */
+  opacity: 0; /* делаем прозрачным */
+  position: fixed; /* делаем блок фиксированным */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: rgba(18,18,18,0.8); /* фон для затемнения */
+  z-index: 9999; /* перекрываем все элементы */
+  transition: visibility 0s 0.25s, opacity 0.25s; /* добавляем для плавного перехода */
+}
+.modal_active { /* активный класс модального окна */
+  opacity: 1; /* убираем прозрачность */
+  visibility: visible; /* отображаем блок модального окна */
+  transition: visibility 0s 0s, opacity 0.25s; /* добавляем для плавного перехода */
+}
+.modal__wrapper { /* блок обертка для центрирования контентной части модального окна */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.modal__body { /* еще один блок обертка для возможности прокрутки контента, если модальное окно не помещается по высоты */
+  overflow-y: auto; /* добавляем полосу прокрутки при недостаточной высоте */
+  position: relative;
+  margin: 0 24px; /* боковые отступы для мобильных экранов */
+  height: 866px;
+  width: 651px;
+  -ms-overflow-style: none; /* скрываем полосу прокрутки */
+  scrollbar-width: none; /* скрываем полосу прокрутки */
+}
+.modal__body::-webkit-scrollbar { /* скрываем полосу прокрутки */
+  display: none;
+}
+.modal__inner { /* стилизуем контентную часть */
+  display: flex;
+  flex-direction: column;
+  background: #F9D3EB;
+  width: 100%;
+  padding: 114px 24px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 50px;
+  position: relative;
+  margin: 24px 0; /* отступы сверху и снизу, чтобы контентная часть модального окна не прилипала к границам браузера при недостаточной высоте */
+}
+.modal__close {
+  position: absolute;
+  top: 64px;
+  right: 64px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #FF5CA8;
+  border-radius: 150px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 34px;
+}
+.modal__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 24px;
+ 	font-family: 'Prosto One'; 
+ 	color: #372DAA; 
+ 	padding-top:60px;">
+}
+.modal__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 2;
+  color: #000000;
+  font-family: 'Aksara Bali Galang';
+  padding-top: 30px;
+}
+@media (max-width: 575.98px) {
+  .buttons__flex {
+    flex-direction: column;
+  }
+  .buttons__button:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
